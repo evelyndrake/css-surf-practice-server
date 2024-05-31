@@ -9,7 +9,7 @@ The server contains the following, already configured for your convenience:
 ### Setting up the server
 - This guide assumes you're hosting this from a Windows machine.
 - Download [SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
-- Note that the folder containing the SteamCMD executable will be the folder in which your server is stored. This will take ~20GB if I recall correctly.
+- Note that the folder containing the SteamCMD executable will be the folder in which your server is stored.
 - In the command prompt, login anonymously: `login anonymous`.
 - Install the CS:GO dedicated server: `app_update 232330 validate'.
 - Exit SteamCMD.
