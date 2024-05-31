@@ -19,7 +19,7 @@ The server contains the following, already configured for your convenience:
 - In your dedicated server, navigate to `cstrike/addons/sourcemod/configs` and open the file `admins_simple.ini`.
 - Use [steamidfinder.com](https://www.steamidfinder.com/) to find your Steam ID, for example, mine is `STEAM_0:0:47800602`.
 - Replace this Steam ID in the configuration file with your own.
-- To adjust the server's configuration, modify files in `cstrike/addons/sourcemod/configs` and `cstrike/cfg`, as well as `start.bat` and `server.cfg'.
+- To adjust the server's configuration, modify files in `cstrike/addons/sourcemod/configs` and `cstrike/cfg`, as well as `start.bat` and `server.cfg`.
 ### Starting the server
 - Run `start.bat` to start your local server.
 - Open the community server browser and go to the Local Games tab, where your server will appear.
