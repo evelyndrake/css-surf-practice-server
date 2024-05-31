@@ -1,5 +1,5 @@
 # Counter-Strike Source Dedicated Surf Practice Server
-This is a collection of addons, maps, scripts, and configuration files used for my personal surf server.
+This is a collection of addons, maps, scripts, and configuration files used for my personal CSS surf server. If you're looking for my CSGO guide, [it can be found here](https://github.com/evelyndrake/csgo-surf-practice-server).
 ![](https://i.imgur.com/h14bOsV.png)
 The server contains the following, already configured for your convenience:
 - [Influx Timer](https://influxtimer.com/) and [predefined zones](https://github.com/Sayt123/SurfZones)
