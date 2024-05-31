@@ -1,0 +1,1 @@
+srcds.exe -console -game cstrike -autoupdate +maxplayers 20 +map surf_lessons

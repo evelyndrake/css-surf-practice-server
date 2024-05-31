@@ -1,0 +1,357 @@
+"CSSBuy_Weapons"
+{
+	//Note: Any item not defined here will not be accessible via sm_buying_commands
+	//	- Not Defined (But Working): weapon_knife, weapon_c4
+
+	//"item"
+	//{
+	//	"slot" - The physical slot the item will occupy.
+	//  	"-4" = Nightvision Goggles
+	//  	"-3" = Defuser
+	// 		"-2" = Vest & Helm
+	//		"-1" = Vest
+	//		"0" = Primary
+	//		"1" = Secondary
+	//		"2" = Knife
+	//		"3" = Grenade
+	//		"4" = C4
+	//	"team" - The required team to purchase the item.
+	//		"0" = The item is not restricted
+	//		"1" = The item cannot be purchased
+	//		"2" = Only Terrorists may purchase the item
+	//		"3" = Only Counter-Terrorists may purchase the item
+	//	"cost" - The price of the item. (-1 = Default, 0 = Free, # = Price)
+	//		The default option for c4 and knife will always return 0; use a hardcoded value
+	//		vest, vesthelm, and nvgs must either be free, or return the default value.
+	//	"index" - The corresponding index for CSWeaponID, located in cstrike.inc
+	//		The defuser occupies the Shield slot, mainly for shittles and giggles.
+	//	"orig" - The original team the weapon belongs to, this value is not to be changed!
+	//	"menu" - The menu category the item is classified into
+	//		Categories are defined first come first serve, so order appropriately.
+	//	"flag" - The optional admin flag to check for to allow the weapon to be purchased
+	//}
+
+	//Equipment
+	"vest"
+	{
+		"slot" "-1"
+		"team" "0"
+		"cost" "0"
+		"index" "31"
+		"orig" "0"
+		"menu" "Equipment"
+		"flag" ""
+	}
+	"vesthelm"
+	{
+		"slot" "-2"
+		"team" "0"
+		"cost" "0"
+		"index" "32"
+		"orig" "0"
+		"menu" "Equipment"
+		"flag" ""
+	}
+	"defuser"
+	{
+		"slot" "-3"
+		"team" "0"
+		"cost" "200"
+		"index" "30"
+		"orig" "3"
+		"menu" "Equipment"
+		"flag" ""
+	}
+	"nvgs"
+	{
+		"slot" "-4"
+		"team" "0"
+		"cost" "1250"
+		"index" "33"
+		"orig" "0"
+		"menu" "Equipment"
+		"flag" ""
+	}
+	
+	//Grenades
+	"hegrenade"
+	{
+		"slot" "3"
+		"team" "0"
+		"cost" "0"
+		"index" "4"
+		"orig" "0"
+		"menu" "Grenades"
+		"flag" ""
+	}
+	"smokegrenade"
+	{
+		"slot" "3"
+		"team" "0"
+		"cost" "0"
+		"index" "9"
+		"orig" "0"
+		"menu" "Grenades"
+		"flag" ""
+	}
+	"flashbang"
+	{
+		"slot" "3"
+		"team" "0"
+		"cost" "0"
+		"index" "24"
+		"orig" "0"
+		"menu" "Grenades"
+		"flag" ""
+	}
+	
+	//Pistols
+	"glock"
+	{
+		"slot" "1"
+		"team" "0"
+		"cost" "0"
+		"index" "2"
+		"orig" "2"
+		"menu" "Pistols"
+		"flag" ""
+	}
+	"usp"
+	{
+		"slot" "1"
+		"team" "0"
+		"cost" "0"
+		"index" "16"
+		"orig" "3"
+		"menu" "Pistols"
+		"flag" ""
+	}
+	"deagle"
+	{
+		"slot" "1"
+		"team" "0"
+		"cost" "0"
+		"index" "25"
+		"orig" "0"
+		"menu" "Pistols"
+		"flag" ""
+	}
+	"p228"
+	{
+		"slot" "1"
+		"team" "0"
+		"cost" "0"
+		"index" "1"
+		"orig" "0"
+		"menu" "Pistols"
+		"flag" ""
+	}
+	"elite"
+	{
+		"slot" "1"
+		"team" "0"
+		"cost" "0"
+		"index" "10"
+		"orig" "2"
+		"menu" "Pistols"
+		"flag" ""
+	}
+	"fiveseven"
+	{
+		"slot" "1"
+		"team" "0"
+		"cost" "0"
+		"index" "11"
+		"orig" "3"
+		"menu" "Pistols"
+		"flag" ""
+	}
+	
+	//Rifles
+	"galil"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "14"
+		"orig" "2"
+		"menu" "Rifles"
+		"flag" ""
+	}
+	"famas"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "15"
+		"orig" "3"
+		"menu" "Rifles"
+		"flag" ""
+	}
+	"ak47"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "27"
+		"orig" "2"
+		"menu" "Rifles"
+		"flag" ""
+	}
+	"m4a1"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "21"
+		"orig" "3"
+		"menu" "Rifles"
+		"flag" ""
+	}
+	"sg552"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "26"
+		"orig" "2"
+		"menu" "Rifles"
+		"flag" ""
+	}
+	"aug"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "8"
+		"orig" "3"
+		"menu" "Rifles"
+		"flag" ""
+	}
+	
+	//Shotguns
+	"m3"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "20"
+		"orig" "0"
+		"menu" "Shotguns"
+		"flag" ""
+	}
+	"xm1014"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "5"
+		"orig" "0"
+		"menu" "Shotguns"
+		"flag" ""
+	}
+
+	//Machine Guns
+	"mac10"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "7"
+		"orig" "2"
+		"menu" "Machine Guns"
+		"flag" ""
+	}
+	"tmp"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "22"
+		"orig" "3"
+		"menu" "Machine Guns"
+		"flag" ""
+	}
+	"mp5navy"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "18"
+		"orig" "0"
+		"menu" "Machine Guns"
+		"flag" ""
+	}
+	"ump45"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "12"
+		"orig" "0"
+		"menu" "Machine Guns"
+		"flag" ""
+	}
+	"p90"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "29"
+		"orig" "0"
+		"menu" "Machine Guns"
+		"flag" ""
+	}
+	"m249"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "19"
+		"orig" "0"
+		"menu" "Machine Guns"
+		"flag" ""
+	}
+	
+	//Snipers
+	"scout"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "3"
+		"orig" "0"
+		"menu" "Snipers"
+		"flag" ""
+	}
+	"awp"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "17"
+		"orig" "0"
+		"menu" "Snipers"
+		"flag" ""
+	}
+	"sg550"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "13"
+		"orig" "3"
+		"menu" "Snipers"
+		"flag" ""
+	}
+	"g3sg1"
+	{
+		"slot" "0"
+		"team" "0"
+		"cost" "0"
+		"index" "23"
+		"orig" "2"
+		"menu" "Snipers"
+		"flag" ""
+	}
+}
