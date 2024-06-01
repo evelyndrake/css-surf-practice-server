@@ -14,7 +14,7 @@ The server contains the following, already configured for your convenience:
 - Install the CS:GO dedicated server: `app_update 232330 validate`.
 - Exit SteamCMD.
 - Navigate to the folder containing your dedicated server, containing the folders: `bin`, `hl2`, `cstrike`, and `platform`.
-- From this repository, remove the `start.bat` and `Server.cfg` files located inside `!PUT THESE NEXT TO CSTRIKE FOLDER NOT IN IT` and place them next to the `cstrike` directory in your dedicated server (the file will exist alongside the 4 folders I just mentioned).
+- From this repository, remove the `start.bat` and `Server.cfg` files located inside `!PUT THESE NEXT TO CSTRIKE FOLDER NOT IN IT` and place them next to the `cstrike` directory in your dedicated server (these files will exist alongside the 4 folders I just mentioned).
 - Copy the rest of the files from this repository into your server's `cstrike` folder, overwriting file conflicts if necessary.
 - [Download my premade surf map pack](https://drive.google.com/file/d/1EbcU_HKJC3gItFxoFfL3SFSP9DU6AulU/view?usp=sharing), and extract it into your server's `cstrike/maps` folder.
 - For some reason, I've been experiencing issues unless you also copy the maps folder from the server's `cstrike` folder into your own client-side `Counter-Strike Source/cstrike` folder (In Steam, right click CSS -> Manage -> Browse local files to access this folder).
