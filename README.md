@@ -14,6 +14,7 @@ The server contains the following, already configured for your convenience:
 - Install the Counter-Strike: Source dedicated server: `app_update 232330 validate`.
 - Exit SteamCMD.
 - Navigate to the folder containing your dedicated server, containing the folders: `bin`, `hl2`, `cstrike`, and `platform`.
+- Download this repository (click the green `Code` button, then select `Download ZIP`) and extract it anywhere
 - From this repository, remove the `start.bat` and `Server.cfg` files located inside `!PUT THESE NEXT TO CSTRIKE FOLDER NOT IN IT` and place them next to the `cstrike` directory in your dedicated server (these files will exist alongside the 4 folders I just mentioned).
 - Copy the rest of the files from this repository into your server's `cstrike` folder, overwriting file conflicts if necessary.
 - [Download my premade surf map pack](https://drive.google.com/file/d/1EbcU_HKJC3gItFxoFfL3SFSP9DU6AulU/view?usp=sharing), and extract it into your server's `cstrike/maps` folder.
