@@ -11,7 +11,7 @@ The server contains the following, already configured for your convenience:
 - Download [SteamCMD](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip).
 - Note that the folder containing the SteamCMD executable will be the folder in which your server is stored.
 - In the command prompt, login anonymously: `login anonymous`.
-- Install the CS:GO dedicated server: `app_update 232330 validate`.
+- Install the Counter-Strike: Source dedicated server: `app_update 232330 validate`.
 - Exit SteamCMD.
 - Navigate to the folder containing your dedicated server, containing the folders: `bin`, `hl2`, `cstrike`, and `platform`.
 - From this repository, remove the `start.bat` and `Server.cfg` files located inside `!PUT THESE NEXT TO CSTRIKE FOLDER NOT IN IT` and place them next to the `cstrike` directory in your dedicated server (these files will exist alongside the 4 folders I just mentioned).
